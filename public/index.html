@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Open Desktop</title>
+<link rel="icon" href="./favicon.png">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="desktop">
+        <div class="toolbar">
+            <button id="backBtn" disabled>⬅ Atrás</button>
+            <span id="currentPath">/</span>
+            <button id="downloadFullBtn" class="btn-special">Descargar Todo</button>
+        </div>
+        <div id="file-grid" class="grid"></div>
+    </div>
+
+    <div id="context-menu" class="hidden">
+        <ul>
+            <li id="menu-open">Abrir Carpeta</li>
+            <li id="menu-download">Descargar</li>
+            <li id="menu-cancel">Cancelar</li>
+        </ul>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
