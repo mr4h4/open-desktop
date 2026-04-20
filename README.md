@@ -1,7 +1,7 @@
 # Open Desktop Server
 Este es un servidor ligero basado en Node.js diseñado para exponer una carpeta local al público, permitiendo la visualización y descarga de su contenido de forma remota o local.
 
-## 🚀 Requisitos Previos
+## 📋 Requisitos Previos
 Antes de comenzar, asegúrate de tener instalado:
 - [Node.js](https://nodejs.org/) (Versión LTS recomendada)
 - npm (se instala automáticamente con Node)
