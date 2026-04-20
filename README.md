@@ -14,9 +14,19 @@ Si has descargado el archivo ZIP, extráelo en tu carpeta de preferencia.
 
 ### 2. Configurar variables de entorno
 Crea un archivo llamado `.env` en la raíz del proyecto y añade las siguientes variables con tus credenciales:
-
+(Utiliza las que sean de tu preferencia, estas son de ejemplo.)
 ```env
-PORT=3000
-AUTH_USER=tu_usuario
-AUTH_PASS=tu_contraseña
+AUTH_USER=admin
+AUTH_PASS=12345
+PORT=65000
 ROOT_DIR=./open-desktop
+```
+
+## 🚀 Puesta en marcha
+Copia los archivos/directorios que desees compartir a `./open-desktop` (o el directorio que hayas configurado previamente).
+Acto seguido ejecuta la siguiente secuencia de comandos:
+```bash
+npm install
+npm start
+```
+El servidor te proporcionará la url a la que debes acceder mediante cualquier navegador. (Local o Remoto, segun tu configuración)
